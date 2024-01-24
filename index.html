@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,7 @@
   }
 </style>
 </head>
-<body class="font-poppins">
+<body class="font-poppins md:w-[80%] md:mx-auto">
   <header class="md:container md:mx-auto">
      <nav>
       <div class="navbar bg-base-100">
@@ -62,7 +62,7 @@
         </div>
       </div>
      </nav>
-     <div class="carousel w-full lg:h-[550px] bg-red-100">
+     <div class="carousel w-full mt-14 lg:h-[550px] bg-red-100">
       <!-- slide 1 -->
       <div id="slide1" class="carousel-item relative w-full">
         <div class="flex flex-col md:flex-row gap-20 p-5 lg:p-24">
@@ -148,7 +148,44 @@
     </div>
   </header>
   <main class="md:container md:mx-auto">
-
+    <section class="my-24">
+      <h2 class="text-5xl font-semibold text-center mb-32">Latest Bikes</h2>
+      <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- first card -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn btn-primary bg-bike-primary border-none text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="./images/others/latest2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn btn-primary bg-bike-primary border-none text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- third card -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="./images/others/latest3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-3xl">2021 Honda CBR500R</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions">
+              <button class="btn btn-primary bg-bike-primary border-none text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 
